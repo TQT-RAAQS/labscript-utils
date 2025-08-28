@@ -167,7 +167,7 @@ class ZMQServer(zprocess.ZMQServer):
         port=None,
         dtype='pyobj',
         pull_only=False,
-        bind_address='tcp://*',
+        bind_address='tcp://0.0.0.0',
         timeout_interval=None,
         **kwargs
     ):
