@@ -1,4 +1,4 @@
-FLAG_TIMER_ENABLED = True
+FLAG_TIMER_ENABLED = False                     # Default False
 
 FLAG_SAVE_FRONT_PANEL_TO_SHOT = True           # Default True
 FLAG_SAVE_PRAWNBLASTER_INFORMATION = True      # Default True
