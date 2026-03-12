@@ -1,0 +1,337 @@
+prawn path 2
+
+prawn__wait_monitor
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+CC_x
+{'limits': [-0.1, 10]}
+{}
+
+
+
+CC_y_1
+{'limits': [-0.1, 10]}
+{}
+
+
+
+CC_y_2
+{'limits': [-0.1, 10]}
+{}
+
+
+
+CC_z_1
+{'limits': [-0.1, 10]}
+{}
+
+
+
+CC_z_2
+{'limits': [-0.1, 10]}
+{}
+
+
+
+GC
+{'limits': [0, 10.0]}
+{}
+
+
+
+Mi_Switch_GC1
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Mixer_1_cooler_3DMOT
+{'limits': [0, 0.104]}
+{}
+
+
+
+Mixer_2_cooler_2DMOT
+{'limits': [0, 0.104]}
+{}
+
+
+
+Mixer_3_cooler_PGC
+{'limits': [0, 0.102]}
+{}
+
+
+
+Mixer_4_opll_1013
+{'limits': [0, 0.1]}
+{}
+
+
+
+Mixer_5_repumper_main
+{'limits': [0, 0.102]}
+{}
+
+
+
+Mixer_6_repumper_3DMOT
+{'limits': [0, 0.102]}
+{}
+
+
+
+Mixer_7_repumper_2DMOT
+{'limits': [0, 0.102]}
+{}
+
+
+
+Mixer_8_repumper_PGC
+{'limits': [0, 0.102]}
+{}
+
+
+
+Mog_2C
+{'limits': [-1, 1]}
+{}
+
+
+
+Mog_2R
+{'limits': [-1, 1]}
+{}
+
+
+
+QDAC_DIGITAL
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+QDAC_Server_trigger
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+emccd_workstation_awg_ramp_signal
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+emccd_workstation_awg_signal
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+AWG_420_trigger
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+AWG_IQMixer_trigger
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+CS_1_power
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+EMCCD_ISS_trigger
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+EMCCD_digital
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+EMCCD_external_shutter
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+EMCCD_trigger
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_Shutter_1_cooler_3DMOT
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_Shutter_2_cooler_2DMOT
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_Shutter_3_cooler_PGC
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_Shutter_4_pgc_cooler_longitudinal
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_Shutter_5_repumper_3DMOT
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_Shutter_6_repumper_2DMOT
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_Shutter_7_repumper_PGC
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_Shutter_8_pushbeam
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_Shutter_9_pgc_repumper_longitudinal
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_shutter_11_pgc_cooler_xz1_T
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_shutter_12_pgc_cooler_xz1_B
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_shutter_13_pgc_cooler_xz2
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_shutter_14_MO4
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_shutter_16_d1_local
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Me_shutter_17_d1_global
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Mi_Switch_1_cooler_3DMOT
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Mi_Switch_2_cooler_2DMOT
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Mi_Switch_3_cooler_PGC
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Mi_Switch_4
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Mi_Switch_5_repumper_main
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Mi_Switch_6_repumper_3DMOT
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Mi_Switch_7_repumper_2DMOT
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Mi_Switch_8_repumper_PGC
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+Mi_Switch_9_microwave_horn
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+cmos_2DMOT_digital
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+cmos_3DMOT_digital
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+
+
+monpi_pd2_digital
+{'limits': None, 'inverted': False}
+{'inverted': False}
+
+prawn path 2prawn path 2prawn path 2prawn path 2prawn path 2

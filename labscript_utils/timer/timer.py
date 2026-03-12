@@ -3,7 +3,7 @@ import datetime
 import os
 import json
 from experiment.toolkits.configs import Addresses
-from labscript_utils.flags import FLAG_TIMER_ENABLED
+from experiment.toolkits.configs import LabscriptSettings
 from concurrent.futures import ThreadPoolExecutor, Future
 import threading
 import functools
@@ -13,6 +13,8 @@ _absolute_time_information = {}
 
 _TIMER_LOCK = threading.RLock()
 _TIMER_IO_EXECUTOR = ThreadPoolExecutor(max_workers=1)
+
+FLAG_TIMER_ENABLED = LabscriptSettings.flag_timer_enabled
 
 def thread_safe_timer_method(fn):
     """Decorator to make Timer static methods atomic w.r.t shared timer dicts."""

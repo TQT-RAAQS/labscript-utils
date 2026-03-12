@@ -21,6 +21,9 @@ import ast
 from labscript_utils.dict_diff import dict_diff
 import sys
 from zprocess import raise_exception_in_thread
+from experiment.toolkits.configs import LabscriptSettings
+
+FLAG_SOFT_CT_COMPARISON = LabscriptSettings.flag_soft_connection_table_comparison
 
 def _ensure_str(s):
     """convert bytestrings and numpy strings to python strings"""
@@ -140,6 +143,9 @@ class ConnectionTable(object):
             else:
                 # for each top level child in other, check if children of that object are also children of the child in self.
                 result, child_error = self.toplevel_children[name].compare_to(connection)
+                import os
+                with open(r"C:\Users\tqtraaqs\Desktop\tqtraaqs_git\labscript-utils\labscript_utils\test.txt", "a") as file:
+                    file.writelines([f"{name} path 2"])
                 if not result:
                     #TODO more info on what doesn't match? Print a diff and return it as part of the message?
                     if self.logger: self.logger.error('Connection table mismatch')
@@ -303,7 +309,8 @@ class Connection(object):
         if self.BLACS_connection != other_connection.BLACS_connection:
             error["BLACS_connection"] = True
         if self.properties != other_connection.properties:
-            error["properties"] = True
+            if not FLAG_SOFT_CT_COMPARISON:
+                error["properties"] = True
         
         # for each child in other_connection, check that the child also exists here
         for name, connection in other_connection.child_list.items():
